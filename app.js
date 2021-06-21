@@ -19,7 +19,9 @@
 // myNum = PI * 4
 // console.log(myNum);
 
-var num1 = 42;
-console.log(num1, num2);
-var num2 = 88;
-console.log(num1, num2);
+// var num1 = 42;
+// console.log(num1, num2);
+// var num2 = 88;
+// console.log(num1, num2);
+
+console.log('I m from outside')

@@ -44,5 +44,6 @@
 // console.log(str.slice(13)); 
 
 //substr()
-// var str = "Lorem Ipsum is simply dummy text of simply printing and typesetting industry.";
-// console.log(str.substr(26,10));
+var str = "Lorem Ipsum is simply dummy text of simply printing and typesetting industry.";
+document.write(str.substr(26,10));
+alert("dsadas");

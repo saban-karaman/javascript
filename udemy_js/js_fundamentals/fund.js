@@ -41,3 +41,58 @@ function ch(nam){
 
 }
 }
+let dolp = [96, 108, 89];
+let kol = [88, 91, 110];
+let akol = 0;
+let adolp = 0;
+
+for (let i = 0; i < dolp.length; i++) {
+  adolp += dolp[i];    
+}
+
+for (let i = 0; i < kol.length; i++) {
+    akol += kol[i];    
+  }
+
+adolp = adolp/(dolp.length)
+;
+akol = akol/(kol.length);
+
+if (adolp > akol) {
+    console.log("dolphin wins")
+} else if (akol < adolp){
+    console.log("koala wins")
+}else {
+    console.log("draw");
+}
+
+const day = "wednesday";
+switch (day) {
+    case "monday":
+        console.log("plan course");
+        console.log("go to coding meetup");
+        break;
+    case "tuesday":
+        console.log("prepare")
+        break;
+    case "wednesday":
+    case "thursday":
+        console.log("sleeping");
+        break;
+    case "friday":
+        console.log("enjoy");
+    default:
+        console.log("not valid day")
+        break;
+}
+
+
+const ages = 23;
+const drink = ages >= 18 ? 'wine 🍷':'water 💧';
+console.log(drink);
+
+
+
+let bil = 430;
+
+console.log(`The bill was ${bil}, the tip was ${50 <= bil && bil<=300 ? bil*0.15:bil*0.2} total value ${bil+(50 <= bil && bil<=300 ? bil*0.15:bil*0.2)}`)

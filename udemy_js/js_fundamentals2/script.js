@@ -84,3 +84,4 @@ function fruitProcessor(apples, oranges) {
 }
 
 console.log(fruitProcessor(2, 3));
+console.log(fruitProcessor(4+54, 8));

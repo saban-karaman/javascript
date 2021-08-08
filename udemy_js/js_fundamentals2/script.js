@@ -70,18 +70,70 @@
 
 
 
-function cutFruitPieces(fruit) {
-    return fruit * 4;
-}
+// function cutFruitPieces(fruit) {
+//     return fruit * 4;
+// }
 
-function fruitProcessor(apples, oranges) {
-    const applePieces =  cutFruitPieces(apples);
-    const appleOranges =  cutFruitPieces(oranges);
+// function fruitProcessor(apples, oranges) {
+//     const applePieces =  cutFruitPieces(apples);
+//     const appleOranges =  cutFruitPieces(oranges);
 
-    console.log(apples, oranges);
-    const juice = `juice with ${applePieces} apples and ${appleOranges} oranges. `;
-    return juice
-}
+//     console.log(apples, oranges);
+//     const juice = `juice with ${applePieces} apples and ${appleOranges} oranges. `;
+//     return juice
+// }
 
-console.log(fruitProcessor(2, 3));
-console.log(fruitProcessor(4+54, 8));
+// console.log(fruitProcessor(2, 3));
+// console.log(fruitProcessor(4+54, 8));
+
+
+// const calcAge = function (birthYear) {
+//     return 2037 - birthYear;
+// }
+
+// const retirement = function (birthYear, firstName) {
+//     const age = calcAge(birthYear);
+//     const retire = 65 - age;
+
+//     if (retire > 0){
+//         return retire;
+//     } else {
+//         return -1;
+//     }
+
+//     // return retire;
+
+//     // return `${firstName} retires in $ {retire} years`;
+// }
+
+// console.log(retirement(1986, "saban"));
+
+// const calcAverage = (score1, score2, score3) =>{
+//     return (score1+score2+score3)/3
+// }
+
+// const avgDolphins = calcAverage(85, 54, 41);
+// const avgKoalas = calcAverage(23, 34, 27);
+
+// function checkWinner(teamA, teamB) {
+//     if (teamA > 2*teamB) {
+//         console.log(`Dolphin win (${teamA} vs. ${teamB})`)
+//     } else if ( teamB > 2*teamA) {
+//         console.log(`Koala win (${teamB} vs. ${teamA})`)
+//     } else {
+//         console.log(`No wins (${teamA} vs. ${teamB}) `)
+//     }
+// }
+
+// checkWinner(avgDolphins, avgKoalas);
+
+const friend1 = "michael";
+const friend2 ="steven";
+const friend3 = "peter";
+
+const friends = ["michael", "steven", "peter"];
+
+const years = new Array(1991, 1984, 2008, 2020);
+
+console.log(friends.length);
+console.log(friends[friends.length-1]);

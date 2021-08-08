@@ -127,13 +127,67 @@
 
 // checkWinner(avgDolphins, avgKoalas);
 
-const friend1 = "michael";
-const friend2 ="steven";
-const friend3 = "peter";
+// const friend1 = "michael";
+// const friend2 ="steven";
+// const friend3 = "peter";
 
-const friends = ["michael", "steven", "peter"];
+// const friends = ["michael", "steven", "peter"];
 
-const years = new Array(1991, 1984, 2008, 2020);
+// const years = new Array(1991, 1984, 2008, 2020);
 
-console.log(friends.length);
-console.log(friends[friends.length-1]);
+// console.log(friends.length);
+// console.log(friends[friends.length-1]);
+
+
+// friends[2] = "jay";
+// console.log(friends);
+
+
+// const firstName = "jonas";
+// const jonas = [firstName, "shedmant", 2037-1991, "teacher", friends];
+
+// console.log(jonas);
+
+// const friends = ["michael", "steven", "peter"];
+// friends.push("jay");
+// console.log(friends);
+
+// friends.unshift("john");
+// console.log(friends);
+
+// friends.pop();
+// console.log(friends);
+// friends.shift();
+// console.log(friends);
+
+// console.log(friends.indexOf("steven"));
+
+// console.log(friends.includes("steven"));
+
+
+const calcTip = function (tip) {
+    if (tip > 50 && tip < 300) {
+        return tip*0.15
+    } else {
+        return tip*0.20
+    }
+}
+
+const bills = [125, 555, 44];
+
+let tips = [];
+for (let i = 0; i < bills.length; i++) {
+    
+    tips.push(calcTip(bills[i]))
+};
+
+let total = [];
+for (let i = 0; i < tips.length; i++) {
+    
+    total.push(tips[i]+bills[i])
+};
+
+
+
+console.log(tips);
+console.log(total);

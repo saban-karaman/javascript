@@ -30,9 +30,22 @@
 // for (let i = 0; i <= brand.length; i++){
 //     console.log(brand[brand.length - (i+1)]);
 // }
-let x = 9;
+// let x = 9;
 
-for (let i = 1; i <= 9; i++) {
-    console.log(1,"x",i+1,"=",1*(i+1));
+// for (let i = 1; i <= 9; i++) {
+//     console.log(1,"x",i+1,"=",1*(i+1));
     
-}
+let counter = 0;
+const id = setInterval(function () {
+  const timeLabel = document.querySelector("p");
+  // console.log(timeLabel);
+  const time = new Date();
+  timeLabel.innerHTML = time.toLocaleTimeString();
+  counter++;
+  if (counter == 5) {
+    timeLabel.innerHTML = "Merhaba";
+    clearInterval(id);
+    // console.log("timeLabel :>> ", timeLabel);
+  }
+}, 1000);
+console.log("id :>> ", id);
